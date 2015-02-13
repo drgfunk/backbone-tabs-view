@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Backbone Test</title>
+  <!-- build:css(./app) /assets/stylesheets/styles.css -->
+  <link rel="stylesheet" href="/_tmp/stylesheets/styles.css">
+  <!-- endbuild -->
+
+  <!-- build:js(./app) /assets/javascripts/lib/vendor.js -->
+  <script src="/bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+<body>
+  <h1>Hello, welcome to Backbone Test!</h1>
+
+  <div class="container">
+    <div class="tabs">
+      <div class="tabs__list">
+        <ul>
+          <li class="tabs__button is-active"><a href="#tab1">Tab 1</a></li>
+          <li class="tabs__button"><a href="#tab2">Tab 2</a></li>
+          <li class="tabs__button"><a href="#tab3">Tab 3</a></li>
+        </ul>
+      </div>
+
+      <div class="tabs__pages">
+
+        <div class="tabs__page is-active" id="tab1">
+          <h2>Tab 1</h2>
+          <p>Nulla vitae elit libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.</p>
+        </div>
+
+        <div class="tabs__page" id="tab2">
+          <h2>Tab 2</h2>
+          <p>Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+
+        <div class="tabs__page" id="tab3">
+          <h2>Tab 3</h2>
+          <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.</p>
+        </div>
+
+      </div>
+        
+    </div>
+  </div>
+
+  <!-- build:js(./app) /assets/javascripts/bundle.js -->
+  <script src="/_tmp/javascripts/bundle.js"></script>
+  <!-- endbuild -->
+</body>
+</html>
